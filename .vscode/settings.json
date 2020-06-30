@@ -1,0 +1,25 @@
+{
+  "window.zoomLevel": 0,
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "'Monaco','Courier New','monospace'",
+  "workbench.sideBar.location": "left",
+  "editor.fontSize": 14,
+  "git.ignoreLegacyWarning": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+//   "eslint.nodePath": "/Users/.nvm/versions/node/v12.9.0/bin",
+  "eslint.options": {
+        "configFile": "./.eslintrc",
+        "extensions": [
+            ".js",
+            ".ts",
+            ".vue"
+        ]
+   },
+   "eslint.validate": ["typescript", "javascript"]
+}

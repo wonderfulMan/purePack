@@ -1,0 +1,29 @@
+{
+  "name": "@purepack-common/cli",
+  "version": "0.0.0",
+  "description": "构建purepack-cli生态",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wonderfulMan/purePack.git"
+  },
+  "main": "./dist/index.js",
+  "types": "./src/typings/global.d.ts",
+  "scripts": {
+    "build": "../../../node_modules/.bin/tsc -w"
+  },
+  "keywords": [
+    "hAo",
+    "react",
+    "Vue",
+    "cli"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "wonderfulMan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wonderfulMan/@purepack-common/cli/issues"
+  },
+  "homepage": "https://github.com/wonderfulMan/purePack"
+}
